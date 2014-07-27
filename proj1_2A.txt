@@ -1,0 +1,12 @@
+Partner 1 name: Tricia Fu
+Partner 1 login: cs61c-sz
+Partner 2 name: Jade Hua
+Partner 2 login: cs61c-qc
+
+CS61C Spring 2014 Project 1-2 Task A Writeup
+
+1. Which version (iterative or recursive) executed more instructions, and why? Please answer in 1-2 sentences.
+
+The recursive function executed more instructions because the recursive function has to first recurse to the base case and then backtrack to the return value of each previous call until it reaches the main call, where it will then return the stopping time of the overall call. This requires more loads and unloads of the registers which leads to executing more instructions. 
+
+
